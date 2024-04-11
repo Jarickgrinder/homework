@@ -1,0 +1,132 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+    
+        <header>
+            <nav>
+                <ul style="padding-left: 0; background-color: yellow; text-align: center;">
+                    <li style="display: inline-block; width: calc(20% - 4px)">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li style="display: inline-block; width: calc(20% - 4px)">
+                        <a href="#section">Section елемент</a>
+                    </li>
+                    <li style="display: inline-block; width: calc(20% - 4px)">
+                        <a href="#article">Article елемент</a>
+                    </li>
+                    <li style="display: inline-block; width: calc(20% - 4px)">
+                        <a href="#header">Header елемент</a>
+                    </li>
+                    <li style="display: inline-block; width: calc(20% - 4px)">
+                        <a href="#footer">Footer елемент</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <aside style="display: inline-block; width: calc(30% - 5px); height: 100%; position: absolute; top: 0; margin-top: 120px">
+                <a href="https://www.youtube.com/watch?v=dEBVe8Ij7JU&list=PLytQ0YczAfcdj-OUqWO20vPsr0ix0M1Us"> <h4>Front-End розробка. Сучасні тренди</h4>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/dEBVe8Ij7JU?si=AQ6qNzX4efEVBVR4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </a> 
+            </aside>
+            <article style="display: inline-block; width: 70%; margin-left: 30%;">
+                <section>
+                    <h1 id="home">Home</h1>
+                    <p>
+                        HTML5 Семантичні елементи <br>
+                        Семантичний елемент чітко описує його значення як для браузера, так і <br>
+                        для розробника. <br>
+                        Приклади не семантичних елементів: div і span- нічого не говорить <br>
+                        про його вміст. <br>
+                        Приклади семантичних елементів: form, table і article- чітко <br>
+                        визначає його зміст. <br>
+                        <h3>Підтримка браузерів</h3> <br>
+                        Семантичні елементи HTML5 підтримуються у всіх сучасних браузерах. <br>
+                        Крім того, ви можете "навчити" старих браузерів, як обробляти "невідомі <br>
+                        елементи". <br>
+                        <h3>Нові семантичні елементи в HTML5</h3> <br>
+                        HTML5 пропонує нові семантичні елементи для визначення різних частин <br>
+                        веб-сторінки: <br>
+                        ● section <br>
+                        ● article <br>
+                        ● header <br>
+                        ● footer <br>
+                    </p>
+                </section>
+                <section>
+                    <h1 id="section">HTML5 section елемент</h1>
+                    <p>
+                        Елемент section  визначає розділ в документі. <br>
+                            Згідно з документацією в3к'с HTML5: "розділ представляє собою <br>
+                            тематичну угруповання контенту, зазвичай з заголовком". <br> 
+                            Домашня сторінка зазвичай може бути розділена на розділи для <br>
+                            ознайомлення, змісту і контактної інформації. <br>
+                            
+                    </p>
+                    <div>
+                        <img src="/img/section.jpg" alt="article">
+                    </div>
+                </section>
+                <section>
+                    <h1 id="article">HTML5 article елемент</h1>
+                    <p>
+                        Елемент article визначає незалежний, автономний вміст. <br>
+                            Стаття повинна мати сенс самостійно, і вона повинна мати можливість <br>
+                            читати його незалежно від іншої частини веб-сайту. <br>
+                            Приклади того, де можна використовувати елемент article: <br>
+                            ● Повідомлення на форумі <br>
+                            ● блозі <br>
+                            ● Газетна стаття <br>
+                    </p>
+                    <div>
+                        <img src="/img/article.jpg" alt="article">
+                    </div>
+                </section>
+                <section>
+                    <h1 id="header">HTML5 header елемент</h1>
+                    <p>
+                        Елемент header задає заголовок для документа або розділу. <br>
+                        Елемент header повинен використовуватися в якості контейнера для <br>
+                        вступного змісту. <br>
+                        В одному документі може бути кілька елементів header. <br>
+                        У наступному прикладі визначається заголовок для статті: <br>
+                    </p>
+                    <div>
+                        <img src="/img/header.jpg" alt="header">
+                    </div>
+                </section>
+                <section>
+                    <h1 id="footer">HTML5 footer елемент</h1>
+                    <p>
+                        Елемент footer вказує нижній колонтитул для документа або розділу. <br>
+                        Нижній колонтитул зазвичай містить автора документа, інформацію про <br>
+                        авторське право, посилання на умови використання, контактні дані і т.д.<br>
+                        В одному документі може бути кілька елементів footer.
+                    </p>
+                    <div>
+                        <img src="/img/footer.jpg" alt="footer">
+                    </div>
+                    <h2>Про автора</h2>
+                    <iframe
+                        src="resume.html"
+                        frameborder="0"
+                        width="500"
+                        height="500"
+                    >Resume</iframe>
+                </section>
+            </article>
+        </main>
+
+        <footer style="background-color: yellow; margin-top: 0px">
+                <div>
+                    <p>@Copyright 2024</p>
+                </div>
+        </footer>
+
+    </body>
+</html>   
